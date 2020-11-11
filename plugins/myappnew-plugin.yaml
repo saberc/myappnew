@@ -1,0 +1,20 @@
+kind: "EntandoPlugin"
+apiVersion: "entando.org/v1"
+metadata:
+  name: "myappnew-plugin"
+spec:
+  image: saberc/myappnew:0.0.1-SNAPSHOT
+  replicas: 1
+  dbms: postgresql
+  parameters: {}
+  ingressPath: "/myappnew"
+  healthCheckPath: "/management/health"
+  securityLevel: "strict"
+  connectionConfigNames: []
+  permissions: []
+  roles:
+  - name: myappnew-admin
+    code: myappnew-admin
+  - name: road-admin
+    code: "road-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here

@@ -1,0 +1,6 @@
+code: road-table-widget
+titles:
+  en: Road Table Widget
+  it: Road Table Widget
+group: free
+customUiPath: road-table-widget.ftl

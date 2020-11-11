@@ -1,0 +1,13 @@
+code: myappnew-bundle
+description: This is the myappnew bundle
+
+components:
+  plugins:
+    - plugins/myappnew-plugin.yaml
+
+  widgets:
+    - ui/widgets/road/tableWidget/road-table-widget-descriptor.yaml
+    - ui/widgets/road/detailsWidget/road-details-widget-descriptor.yaml
+    - ui/widgets/road/formWidget/road-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+

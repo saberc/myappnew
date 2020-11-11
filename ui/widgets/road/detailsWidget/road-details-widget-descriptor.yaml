@@ -1,0 +1,6 @@
+code: road-details-widget
+titles:
+  en: Road Details Widget
+  it: Road Details Widget
+group: free
+customUiPath: road-details-widget.ftl

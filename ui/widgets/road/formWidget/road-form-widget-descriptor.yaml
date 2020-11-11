@@ -1,0 +1,6 @@
+code: road-form-widget
+titles:
+  en: Road Form Widget
+  it: Road Form Widget
+group: free
+customUiPath: road-form-widget.ftl
